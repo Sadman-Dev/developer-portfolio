@@ -15,7 +15,7 @@ h1
     font-size: 50px;
 }
 
-.name-color 
+.salmon-color 
 {
     color: salmon;
 }
@@ -28,12 +28,13 @@ h1
 .container-width 
 {
     width: 50%;
-    margin-top: 10px;
+    padding-left: 4%;
 }
 
 .container-width img 
 {
     width: 80%;
+    margin-top: 10px;
 }
 
 .hire-btn
@@ -50,9 +51,62 @@ h1
 .dream-sec 
 {
     display: flex;
-    margin-top: 10%;
+    margin-top: 120px;
     padding-right: 9%;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-sec
+{
+    margin-top: 120px;
+    margin-bottom: 100px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-sec h1
+{
+    text-align: center;
+}
+
+.experience-text
+{
+    display: flex;
+}
+
+.experience-item 
+{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-left: 5px solid #e41b1b;
+}
+
+.experience-item h2 
+{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.experience-item p
+{
+    margin-bottom: 50px;
+}
+
+
+#junior-dev
+{
+    border-left: 5px solid salmon;
+}
+
+.footer
+{
+    text-align: center;
+    color: dimgray;
 }
