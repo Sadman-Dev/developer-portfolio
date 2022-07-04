@@ -1,6 +1,13 @@
 body 
 {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.hero-sec
+{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    padding-left: 4%;
 }
 
 h1 
@@ -18,13 +25,13 @@ h1
     display: flex;
 }
 
-.hero-width 
+.container-width 
 {
     width: 50%;
-    padding-left: 4%;
+    margin-top: 10px;
 }
 
-.hero-width img 
+.container-width img 
 {
     width: 80%;
 }
@@ -38,4 +45,14 @@ h1
     font-size: 17px;
     font-weight: 600;
     border-radius: 5px;
+}
+
+.dream-sec 
+{
+    display: flex;
+    margin-top: 10%;
+    padding-right: 9%;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
